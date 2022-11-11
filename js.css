@@ -1,0 +1,195 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 10px;
+    background: white;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.container1 {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    
+}
+table {
+    font-size: larger;
+    margin: 0px;
+    padding: 0px;
+    width: 1380px;
+    border-collapse: collapse;
+    overflow: hidden;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
+
+th, td {
+    padding: 15px;
+    background-color: rgba(255,255,255,0.2);
+    color: black;
+}
+th {
+    text-align: left;
+}
+thead th {
+    background-color: #55608f;
+}
+tbody tr:hover {
+    background-color: rgba(52, 50, 50, 0.3);
+}
+tbody td {
+    position: relative;
+}
+tbody td:hover:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -9999px;
+    bottom: -9999px;
+    background-color: rgba(255,255,255,0.2);
+    z-index: -1;
+}
+.strong{
+    transition: all 0.3s ease;
+    position: relative  ;
+    content: "";
+    top:0px;
+    left: 0px;
+ 
+    height:100%;
+    border: 3px solid rgba(34, 183, 143,0.5);;
+    padding: 10px;
+    color: white;
+    
+}
+.hari{
+    color: #fd7e14;
+    text-align: center;
+}
+.hari1{
+    position:absolute;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+   
+  }
+  .head{
+    position: absolute;
+ left:78%;
+    top: 30%;
+  }
+  .head1{
+    position: absolute;
+    font-size: 13px;
+    top: 20%;
+    padding: -3px;
+    font-style: italic;
+    text-align: center;
+
+  }
+
+  .btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 19px 48px;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    position:absolute;
+    right:30px;
+    margin: 10px;
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+.btn-danger{
+    background-color: #5a6f80 ;
+    padding: 19px 48px;
+    font-size: large;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px;
+}
+.btn-danger:hover{
+    background-color: var(--primary-color);
+}
+.partner-images {
+    border-radius: 3px;
+    background: #fff;
+    text-align: center;
+    line-height: 80px;
+    font-size: 24px;
+    color: #000;
+    font-family: 'Bebas Neue', cursive;
+    margin: 10px 15px;
+  }
+  .partner-images1 {
+    border-radius: 3px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 24px;
+    color: #000;
+    font-family: 'Bebas Neue', cursive;
+    margin: 10px 15px;
+  }
+.success{
+    color: #2ed573;
+}
+.error{
+    color: #ff4757;
+}
+.down{
+    position: absolute;
+}
+.timing{
+    position: relative;
+    text-decoration: solid;
+    color:white;
+    font-size: large;
+    margin-top: 99px;
+}
+.services-info h3 {
+    margin-top:0px;
+}
+.application-bg { 
+    background: url("images/producsts/clientfactory/") no-repeat top center; 
+    background-size:cover;}
+.application-bg .partner-images {
+    border:0px;
+}
+.home-partners {
+    padding:80px 0 150px;
+}
+.brand-bg {
+    background:no-repeat top center;
+    background-size:cover;
+    
+    background-color: #000;
+    
+}
